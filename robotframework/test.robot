@@ -1,11 +1,11 @@
 *** Settings ***
 Library    SeleniumLibrary
 *** Variables ***
-${HOMEPAGE}    https://pantip.com/
+${HOMEPAGE}    https://google.com/
 ${BROWSER}    chrome
 
 *** Test Cases ***
 Go To homepage
     Open Browser    ${HOMEPAGE}    ${BROWSER}
-	Title Should Be    Pantip - Learn, Share & Fun
+	Title Should Be    Learning and Researching
 	Close Browser
