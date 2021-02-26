@@ -1,3 +1,4 @@
+
 *** Settings ***
 Library    SeleniumLibrary
 *** Variables ***
@@ -7,5 +8,5 @@ ${BROWSER}    chrome
 *** Test Cases ***
 Go To homepage
     Open Browser    ${HOMEPAGE}    ${BROWSER}
-	Title Should Be    Learning and Researching
+	Title Should Be    Google
 	Close Browser
